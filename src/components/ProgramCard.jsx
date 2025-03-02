@@ -203,8 +203,8 @@ const ProgramCard = ({ title, description, icon, price, features }) => {
       <Title>{title}</Title>
       <Description>{description}</Description>
       <Price>
-        <div className="price-value">{price} جنيه</div>
-        <div className="price-period">/ شهر</div>
+        <div className="price-value">{price} ريال</div>
+        <div className="price-period">/ جلسة</div>
         <div className="price-tag">خصم لأول مرة</div>
       </Price>
       <FeaturesList>
